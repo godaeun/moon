@@ -11,6 +11,8 @@ function setup() {
   img6 = loadImage("c.png");
   img7 = loadImage("back.png");
 
+}
+
 function draw() {
    background(img7);
   
