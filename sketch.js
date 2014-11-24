@@ -42,7 +42,7 @@ function draw() {
         70,                                     // width
         70);                                    // height
    //4p
-   var duration = 2500;
+   var duration = 5000;
    var timing = (new Date()%duration)/duration;
 
    fill(200,200,200);
