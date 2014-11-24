@@ -16,52 +16,56 @@ function setup() {
 function draw() {
    background(img7);
   
-   fill(255,64,64);
-   noStroke()
+    noStroke()
    image(img, 0,500,270,270);
 
    //2p
    var duration = 3000;
    var timing = (new Date()%duration)/duration;
 
-   fill(50,50,50);
    noStroke()
-   image(img2,10 + Math.cos(timing*2*PI)*200,           // x좌표
-       500 + Math.sin(timing*2*PI)*200,       // y좌표
-       100,                                     // width
-       100);                                    // height
+   image(img2,10 + Math.cos(timing*2*PI)*200,          
+       500 + Math.sin(timing*2*PI)*200,      
+       100,                                     
+       100);                                  
 
    //3p
    var duration = 4000;
    var timing = (new Date()%duration)/duration;
 
-   fill(100,100,100);
    noStroke()
-   image(img3, 20 + Math.cos(timing*2*PI)*250,           // x좌표
-        600 + Math.sin(timing*2*PI)*200,       // y좌표
-        70,                                     // width
-        70);                                    // height
+   image(img3, 20 + Math.cos(timing*2*PI)*250,          
+        600 + Math.sin(timing*2*PI)*200,       
+        70,                                     
+        70);                                    
    //4p
    var duration = 5000;
    var timing = (new Date()%duration)/duration;
 
-   fill(200,200,200);
    noStroke()
-  image(img4, 30 + Math.cos(timing*2*PI)*200,           // x좌표
-        500 + Math.sin(timing*2*PI)*200,       // y좌표
-        40,                                     // width
-        40);                                    // height 
+  image(img4, 30 + Math.cos(timing*2*PI)*200,           
+        500 + Math.sin(timing*2*PI)*200,       
+        40,                                     
+        40);                                     
    //a
-   var duration = 5000;
+   var duration = 6000;
    var timing = (new Date()%duration)/duration;
 
-   fill(200,200,200);
    noStroke()
-   image(img5, 800 + Math.cos(timing*2*PI)*350,           // x좌표
-        50 + Math.sin(timing*2*PI)*200,       // y좌표
-        100,                                     // width
+   image(img5, 800 + Math.cos(timing*2*PI)*350,           
+        50 + Math.sin(timing*2*PI)*200,       
+        100,                                     
         100);
-                                            // height
+   //b
+    image(b,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
+    500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*70-100,200,200);
+                                            
+
+
+
+
+
+
 fill(255);
 noStroke()
 rect(800,0,500,500);
