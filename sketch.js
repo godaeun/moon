@@ -8,13 +8,13 @@ function setup() {
   img4 = loadImage("4.png");
   img5 = loadImage("a.png");
   img6 = loadImage("b.png");
-  img6 = loadImage("c.png");
-  img7 = loadImage("back.png");
+  img7 = loadImage("c.png");
+  img8 = loadImage("back.png");
 
 }
 
 function draw() {
-   background(img7);
+   background(img8);
 
   var duration0 = 7000;
   var timing0 = (new Date()%duration0)/duration0;
