@@ -21,13 +21,13 @@ function draw() {
    image(img, 0,500,270,270);
 
    //2p
-   var duration = 2500;
+   var duration = 3000;
    var timing = (new Date()%duration)/duration;
 
    fill(229,211,136);
    noStroke()
-   image(img2,10 + Math.cos(timing*2*PI)*100,           // x좌표
-       600 + Math.sin(timing*2*PI)*100,       // y좌표
+   image(img2,10 + Math.cos(timing*2*PI)*200,           // x좌표
+       600 + Math.sin(timing*2*PI)*200,       // y좌표
        50,                                     // width
        50);                                    // height
 
