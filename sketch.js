@@ -64,7 +64,7 @@ function draw() {
 
     noStroke()
     image(img6,800 + Math.cos(timing*4*PI)*150-100,
-    50 +Math.sin(timing*4*PI)*70-100,
+    100 +Math.sin(timing*4*PI)*70-100,
     50,
     50);
 
@@ -74,7 +74,7 @@ function draw() {
 
     noStroke()   
     image(img7,800 +Math.cos(timing*4*PI)*100-100,
-    50 + Math.sin(timing*4*PI)*100-100,
+    100 + Math.sin(timing*4*PI)*100-100,
     100,
     100);      
 
