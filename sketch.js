@@ -55,7 +55,7 @@ function draw() {
    var duration = 5000;
    var timing = (new Date()%duration)/duration;
 
-   fill(300,300,300);
+   fill(200,200,200);
    noStroke()
    image(img5, 250 + Math.cos(timing*2*PI)*350,           // x좌표
         50 + Math.sin(timing*2*PI)*200,       // y좌표
