@@ -12,7 +12,7 @@ function setup() {
   img7 = loadImage("back.png");
 
 function draw() {
-   background(img);
+   background(img7);
   
    fill(255,64,64);
    noStroke()
