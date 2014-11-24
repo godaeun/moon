@@ -2,7 +2,7 @@ var bg;
 var y = 0;
 
 function setup() {
-  bg = loadImage("bg.png");
+  bg = loadImage("back.png");
   img = loadImage("1.png");
   img2 = loadImage("2.png");
   img3 = loadImage("3.png");
