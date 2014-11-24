@@ -15,8 +15,19 @@ function setup() {
 
 function draw() {
    background(img7);
+
+  var duration0 = 7000;
+  var timing0 = (new Date()%duration0)/duration0;
+  var duration1 = 6000;
+  var timing1 = (new Date()%duration1)/duration1;
+  var duration2 = 5000;
+  var timing2 = (new Date()%duration2)/duration2;
+  var duration3 = 4000;
+  var timing3 = (new Date()%duration3)/duration3;
+  var duration4 = 3000;
+  var timing4 = (new Date()%duration4)/duration4;
   
-    noStroke()
+   noStroke()
    image(img, 0,500,270,270);
 
    //2p
@@ -43,7 +54,7 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    noStroke()
-  image(img4, 30 + Math.cos(timing*2*PI)*200,           
+   image(img4, 30 + Math.cos(timing*2*PI)*200,           
         500 + Math.sin(timing*2*PI)*200,       
         40,                                     
         40);                                     
@@ -57,7 +68,7 @@ function draw() {
         100,                                     
         100);
    //b
-  image(img6,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
+    image(img6,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
     500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*70-100,200,200);
 
 
