@@ -42,13 +42,13 @@ function draw() {
         70,                                     // width
         70);                                    // height
    //4p
-   var duration = 6000;
+   var duration = 8000;
    var timing = (new Date()%duration)/duration;
 
    fill(200,200,200);
    noStroke()
   image(img4, 30 + Math.cos(timing*2*PI)*340,           // x좌표
-        650 + Math.sin(timing*2*PI)*340,       // y좌표
+        600 + Math.sin(timing*2*PI)*340,       // y좌표
         40,                                     // width
         40);                                    // height   
 }
