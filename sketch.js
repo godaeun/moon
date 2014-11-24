@@ -56,9 +56,6 @@ function draw() {
         50 + Math.sin(timing*2*PI)*200,       
         100,                                     
         100);
-   //b
-    image(b,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
-    500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*70-100,200,200);
                                             
 
 
