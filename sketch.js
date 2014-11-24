@@ -53,10 +53,10 @@ function draw() {
    var timing = (new Date()%duration)/duration;
 
    noStroke()
-   image(earth,800 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,
-   50,
-   120);
-
+   image(img5,500 + Math.cos(timing1*2*PI)*300-150,500 + Math.sin(timing1*2*PI)*300-150,
+   300,
+   300);
+}
    //b
    var duration = 6000;
    var timing = (new Date()%duration)/duration;
