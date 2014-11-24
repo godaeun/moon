@@ -65,6 +65,6 @@ function draw() {
 
 fill(255);
 noStroke()
-rect(800,0,500,500);
+rect(780,0,500,500);
 }
 
