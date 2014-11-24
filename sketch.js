@@ -27,9 +27,9 @@ function draw() {
    fill(50,50,50);
    noStroke()
    image(img2,10 + Math.cos(timing*2*PI)*200,           // x좌표
-       600 + Math.sin(timing*2*PI)*200,       // y좌표
-       80,                                     // width
-       80);                                    // height
+       500 + Math.sin(timing*2*PI)*200,       // y좌표
+       100,                                     // width
+       100);                                    // height
 
    //3p
    var duration = 4000;
@@ -38,7 +38,7 @@ function draw() {
    fill(100,100,100);
    noStroke()
    image(img3, 20 + Math.cos(timing*2*PI)*250,           // x좌표
-        650 + Math.sin(timing*2*PI)*200,       // y좌표
+        600 + Math.sin(timing*2*PI)*200,       // y좌표
         70,                                     // width
         70);                                    // height
 }
