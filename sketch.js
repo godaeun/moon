@@ -54,8 +54,8 @@ function draw() {
 
    noStroke()
    image(img5,500 + Math.cos(timing*2*PI)*300-150,500 + Math.sin(timing*2*PI)*300-150,
-   300,
-   300);
+   150,
+   150);
 
     //b
    var duration = 6000;
