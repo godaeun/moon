@@ -21,7 +21,7 @@ function draw() {
    image(img, 0,500,270,270);
 
    //2p
-   var duration = 4000;
+   var duration = 1000;
    var timing = (new Date()%duration)/duration;
 
    fill(229,211,136);
