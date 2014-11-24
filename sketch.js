@@ -2,7 +2,6 @@ var bg;
 var y = 0;
 
 function setup() {
-  bg = loadImage("back.png");
   img = loadImage("1.png");
   img2 = loadImage("2.png");
   img3 = loadImage("3.png");
@@ -10,11 +9,12 @@ function setup() {
   img5 = loadImage("a.png");
   img6 = loadImage("b.png");
   img6 = loadImage("c.png");
+  img7 = loadImage("back.png");  
   createCanvas(1166, 1621);
 }
 
 function draw() {
-   background(bg);
+   background(img7);
   
    fill(255,64,64);
    noStroke()
