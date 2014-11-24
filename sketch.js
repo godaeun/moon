@@ -58,12 +58,20 @@ function draw() {
         100,                                     
         100);
    //b
+   var duration = 6000;
+   var timing = (new Date()%duration)/duration;
+
+    noStroke()
     image(img6,800 + Math.cos(timing*2*PI)*300 + Math.cos(timing*4*PI)*150-100,
     50 + Math.sin(timing*2*PI)*300 + Math.sin(timing*4*PI)*70-100,
     50,
     50);
 
    //c
+   var duration = 6000;
+   var timing = (new Date()%duration)/duration;
+
+    noStroke()   
     image(img7,800 + Math.cos(timing*2*PI)*300 + Math.cos(timing*4*PI)*100-100,
     50 + Math.sin(timing*2*PI)*300 + Math.sin(timing*4*PI)*100-100,
     100,
