@@ -71,6 +71,10 @@ function draw() {
     image(img6,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing2*4*PI)*150-100,
     500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing2*4*PI)*70-100,200,200);
 
+   //c
+    image(img7,500 + Math.cos(timing1*2*PI)*300 + Math.cos(timing3*4*PI)*100-100,
+    500 + Math.sin(timing1*2*PI)*300 + Math.sin(timing3*4*PI)*100-100,200,200);       
+
 
 
 
