@@ -24,12 +24,22 @@ function draw() {
    var duration = 3000;
    var timing = (new Date()%duration)/duration;
 
-   fill(229,211,136);
+   fill(50,50,50);
    noStroke()
    image(img2,10 + Math.cos(timing*2*PI)*200,           // x좌표
        600 + Math.sin(timing*2*PI)*200,       // y좌표
-       50,                                     // width
-       50);                                    // height
+       80,                                     // width
+       80);                                    // height
 
+   //3p
+   var duration = 4000;
+   var timing = (new Date()%duration)/duration;
+
+   fill(100,100,100);
+   noStroke()
+   image(img3, 20 + Math.cos(timing*2*PI)*250,           // x좌표
+        650 + Math.sin(timing*2*PI)*200,       // y좌표
+        70,                                     // width
+        70);                                    // height
 }
 
