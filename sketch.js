@@ -27,9 +27,9 @@ function draw() {
    fill(229,211,136);
    noStroke()
    image(img2,250 + Math.cos(timing*2*PI)*200,           // x좌표
-        250 + Math.sin(timing*2*PI)*200,       // y좌표
-        40,                                     // width
-        40);                                    // height
+       250 + Math.sin(timing*2*PI)*200,       // y좌표
+       0,                                     // width
+       500);                                    // height
 
 }
 
