@@ -61,6 +61,8 @@ function draw() {
         50 + Math.sin(timing*2*PI)*200,       // y좌표
         100,                                     // width
         100);                                    // height
-
+fill(0);
+noStroke();
+rect(1166,0,500,1166)
 }
 
