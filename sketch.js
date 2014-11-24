@@ -11,6 +11,9 @@ function setup() {
   img6 = loadImage("c.png");
 bg = loadImage("back.png");
 
+fill(0);
+noStroke();
+rect(1500,1500,500,500);
 }
 
 function draw() {
