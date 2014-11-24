@@ -29,7 +29,7 @@ function draw() {
    image(img2,10 + Math.cos(timing*2*PI)*200,           // x좌표
        450 + Math.sin(timing*2*PI)*200,       // y좌표
        50,                                     // width
-       500);                                    // height
+       50);                                    // height
 
 }
 
