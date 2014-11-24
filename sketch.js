@@ -63,6 +63,6 @@ function draw() {
         100);                                    // height
 fill(0);
 noStroke();
-rect(1166,0,500,1166)
+rect(20,20,50,50);
 }
 
