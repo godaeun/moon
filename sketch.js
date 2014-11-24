@@ -18,7 +18,7 @@ function draw() {
   
    fill(255,64,64);
    noStroke()
-   image(img, 40,40,1070,1070);
+   image(img, 40,1040,270,270);
    //노란
    var duration = 4000;
    var timing = (new Date()%duration)/duration;
