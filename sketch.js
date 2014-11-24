@@ -10,7 +10,7 @@ function setup() {
   img5 = loadImage("a.png");
   img6 = loadImage("b.png");
   img6 = loadImage("c.png");
-  img7 = loadImage("back.jpg");  
+  img7 = loadImage("back.png");  
 
 }
 
