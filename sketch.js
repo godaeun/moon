@@ -1,7 +1,7 @@
 var y = 0;
 
 function setup() {
-  createCanvas(1666, 1621);
+  createCanvas(1166, 1621);
   img = loadImage("1.png");
   img2 = loadImage("2.png");
   img3 = loadImage("3.png");
