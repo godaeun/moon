@@ -60,7 +60,10 @@ function draw() {
    image(img5, 800 + Math.cos(timing*2*PI)*350,           // x좌표
         50 + Math.sin(timing*2*PI)*200,       // y좌표
         100,                                     // width
-        100);                                    // height
-
+        100);
+                                            // height
+fill(255);
+noStroke()
+rect(1166,0,500,1621);
 }
 
