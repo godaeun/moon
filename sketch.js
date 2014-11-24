@@ -9,11 +9,10 @@ function setup() {
   img5 = loadImage("a.png");
   img6 = loadImage("b.png");
   img6 = loadImage("c.png");
-bg = loadImage("back.png");
-
+  img7 = loadImage("back.png");
 
 function draw() {
-   background(bg);
+   background(img);
   
    fill(255,64,64);
    noStroke()
