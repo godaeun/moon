@@ -19,11 +19,17 @@ function draw() {
    fill(255,64,64);
    noStroke()
    image(img, 0,500,270,270);
-   //노란
+
+   //2p
    var duration = 4000;
    var timing = (new Date()%duration)/duration;
 
-   
+   fill(229,211,136);
+   noStroke()
+   image(img2,250 + Math.cos(timing*2*PI)*200,           // x좌표
+        250 + Math.sin(timing*2*PI)*200,       // y좌표
+        40,                                     // width
+        40);                                    // height
 
 }
 
