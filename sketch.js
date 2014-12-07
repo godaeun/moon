@@ -1,4 +1,5 @@
 var y = 0;
+var bg;
 
 function setup() {
   createCanvas(1998, 1621);
@@ -9,12 +10,13 @@ function setup() {
   img5 = loadImage("a.png");
   img6 = loadImage("b.png");
   img7 = loadImage("c.png");
-  img8 = loadImage("back.png");
+  bg = loadImage("bg.png");
 
 }
 
 function draw() {
-   background(img8);
+   background(0);
+   background(bg);    
 
 
    noStroke()
@@ -81,7 +83,7 @@ function draw() {
 
 fill(255);
 noStroke()
-rect(780,0,500,1500);
+rect(1163,0,500,1500);
 
 }
 
