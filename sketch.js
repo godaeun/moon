@@ -2,7 +2,7 @@ var y = 0;
 var bg;
 
 function setup() {
-  createCanvas(1998, 1621);
+  createCanvas(1365, 1261);
   img = loadImage("1.png");
   img2 = loadImage("2.png");
   img3 = loadImage("3.png");
@@ -83,7 +83,7 @@ function draw() {
 
 fill(255);
 noStroke()
-rect(1163,0,500,1500);
+rect(901,0,500,1500);
 
 }
 
