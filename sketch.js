@@ -20,7 +20,7 @@ function draw() {
 
 
    noStroke()
-   image(img, 0,500,270,270);
+   image(img, 0,500,220,220);
 
    //2p
    var duration = 3000;
@@ -29,8 +29,8 @@ function draw() {
    noStroke()
    image(img2,10 + Math.cos(timing*2*PI)*200,          
        500 + Math.sin(timing*2*PI)*200,      
-       100,                                     
-       100);                                  
+       130,                                     
+       130);                                  
 
    //3p
    var duration = 4000;
@@ -39,8 +39,8 @@ function draw() {
    noStroke()
    image(img3, 20 + Math.cos(timing*2*PI)*250,          
         600 + Math.sin(timing*2*PI)*200,       
-        70,                                     
-        70);                                    
+        80,                                     
+        80);                                    
    //4p
    var duration = 5000;
    var timing = (new Date()%duration)/duration;
@@ -48,8 +48,8 @@ function draw() {
    noStroke()
    image(img4, 30 + Math.cos(timing*2*PI)*200,           
         500 + Math.sin(timing*2*PI)*200,       
-        40,                                     
-        40);                                     
+        50,                                     
+        50);                                     
    //a
    var duration = 6000;
    var timing = (new Date()%duration)/duration;
@@ -57,8 +57,8 @@ function draw() {
    noStroke()
    image(img5,800 + Math.cos(timing*4*PI)*200-100,
    300 + Math.sin(timing*4*PI)*170-100,
-   100,
-   100);
+   120,
+   120);
 
     //b
    var duration = 7000;
@@ -67,8 +67,8 @@ function draw() {
     noStroke()
     image(img6,750 + Math.cos(timing*4*PI)*150-100,
     300 +Math.sin(timing*4*PI)*70-100,
-    50,
-    50);
+    70,
+    70);
 
    //c
    var duration = 8000;
