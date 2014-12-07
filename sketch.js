@@ -2,7 +2,7 @@ var y = 0;
 var bg;
 
 function setup() {
-  createCanvas(1365, 1261);
+  createCanvas(1115, 1030);
   img = loadImage("1.png");
   img2 = loadImage("2.png");
   img3 = loadImage("3.png");
@@ -77,13 +77,13 @@ function draw() {
     noStroke()   
     image(img7,750 +Math.cos(timing*4*PI)*100-100,
     300 + Math.sin(timing*4*PI)*100-100,
-    100,
-    100);      
+    90,
+    64);      
 
 
 fill(255);
 noStroke()
-rect(901,0,500,1500);
+rect(741,0,500,1500);
 
 }
 
